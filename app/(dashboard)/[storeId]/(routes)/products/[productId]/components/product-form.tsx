@@ -23,9 +23,9 @@ import {
 } from "@/components/ui/form"
 import { Separator } from "@/components/ui/separator"
 import { Heading } from "@/components/ui/heading"
+import { AlertModal } from "@/components/modals/alert-modal"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import ImageUpload from "@/components/ui/image-upload"
-import { AlertModal } from "@/components/modals/alert-modals"
 import { Checkbox } from "@/components/ui/checkbox"
 
 const formSchema = z.object({
